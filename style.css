@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    width: 100%;
+    height: 100vh;
+}
+section::before{
+    content: "";
+    position: absolute;
+    transform:translate(-600px , -200px) ;
+    height: 500px ;
+    width: 500px;
+    background: linear-gradient(90deg, rgb(200, 44, 70) , rgb(210, 169, 169));
+    border-radius: 50%;
+}
+section::after{
+    content: "";
+    position: absolute;
+    transform:translate(430px , 70px) ;
+    height: 500px ;
+    width: 500px;
+    background: linear-gradient(90deg, rgb(200, 44, 70) , rgb(210, 169, 169));
+    border-radius: 50%;
+}
+.contaner{
+    width: 1000px;
+    height: 500px;
+    backdrop-filter: blur(15px);
+    background-color: rgb(196, 204, 211,0.1);
+    z-index: 1;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(231, 178, 178);
+    
+}.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.logo{
+    font-size: 26px;
+    color: white;
+    padding: 15px;
+    font-weight: 600;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+}
+a:hover{
+    background-color: white;
+    color: burlywood;
+    border-radius: 5px;
+}
+button{
+    padding: 6px 20px;
+    background: linear-gradient(to top left, rgb(200, 44, 70) , rgb(222, 208, 208));
+    border: none;
+    margin: 6px;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+
+}
+.text{
+   margin: 40px;
+   margin-top: 100px;
+
+}
+h2{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+}
+h4{
+    font-size: 13px;
+    line-height: 18px;
+    color: rgb(68, 65, 65);
+}
+.icon{
+    position: absolute;
+    bottom: 0px ;
+    right: 0px;
+    margin: 20px 30px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+}
+i{
+    padding: 3px 8px;
+    font-size: 32px;
+}
+h3{
+    margin-top: 7px;
+    color: black;
+}
